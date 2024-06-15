@@ -4,7 +4,7 @@ from st_pages import Page, Section, show_pages, add_page_title, hide_pages
 add_page_title()
 show_pages(
     [   
-        Page("streamlit_app.py.py",),
+        Page("streamlit_app.py",),
         Section("Applications"),
         Page("pages/crop_recom_streamlitapp.py", "Prediction", "1️⃣", in_section=True),
         Page("pages/basic_sentiment_analyzer.py", "Sentiment Analysis", "2️⃣", in_section=True),
